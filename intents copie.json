@@ -1,0 +1,23 @@
+{"intents":
+
+[
+  { "tag": "greeting",
+    "patterns": ["Bonjour", "Salut", "Hey", "Salut, ca va?", "Comment ca va?", "Salut mon gars", "Salut mec", "Bonjour à vous"],
+    "responses": ["Bonjour monsieur", "Bonjour, que puis-je faire pour vous?", "Bonjour monsieur, je vous écoute",
+      "Salutation maître, comment puis-je vous aider?", "Bonjour, comment puis-je vous aider?"]},
+  { "tag": "create_note",
+    "patterns": ["S'il vous plaît veillez crée une note", "Nouvelle note", "Créer une note", "Je veux créer une nouvelle note", "Écrit une nouvelle note"],
+    "responses": ["Je m'en charge sur le champ", "Je commence tout de suite monsieur", "C'est comme si c'était fait!",
+      "C'est comme si c'était fait, monsieur"]},
+    { "tag": "add_todo",
+    "patterns": ["Je veux ajouter un todo", "Ajouter un todo", "Ajouter un todo à ma liste", "Je veux modifier ma todo liste", "Nouvel élément à ma todo liste"],
+    "responses": ["Je m'en charge sur le champ", "Je commence tout de suite monsieur", "C'est comme si c'était fait!",
+      "C'est comme si c'était fait, monsieur"]},
+    { "tag": "show_todos",
+    "patterns": ["Quelles sont mes todos?", "Montre moi mes todos", "Qu'est-ce qui est au programme?", "Qu'est-ce qui est sur ma todo liste?", "Montre moi ma todo liste"],
+    "responses": ["Je m'en charge sur le champ", "Je commence tout de suite monsieur", "C'est comme si c'était fait!",
+      "C'est comme si c'était fait, monsieur"]},
+  { "tag": "exit",
+    "patterns": ["Je veux quitter", "Stop", "Fin de l'enregistrement", "Fin", "Quitter", "Arrêter la communication", "Fermer le programme", "Aurevoir"],
+    "responses": ["Aurevoir monsieur", "Bonne journée", "Fin de la communication", "Fin de la communication, bonne journée maître"]}
+]}
